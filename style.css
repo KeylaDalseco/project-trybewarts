@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Requisito 1 - atribuindo propriedades à barra superior. */
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.trybewarts-login {
+  display: flex;
+  gap: 10px;
+}
+
+.trybewarts-header-logo {
+  height: 80px;
+  padding: 10px;
+}
+
+/* Requisito 4 - criando titulo h1. */
+h1 {
+  color: white;
+}
+
+/* Requisito 3 - atribuindo propriedades ao form. */
+#email , #senha , #btn {
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  height: 45px;
+  border-style: none;
+}
+
+#btn {
+  padding-top: 11px;
+  background-color: rgb(74, 33, 113);
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: first baseline;
+  align-items: center;
+  background-color: rgb(238, 243, 243);
+  padding-bottom: 41px;
+}
+
+/* Requisito 5 - Criando main e form. */
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column; /* Requisito 6 - Adicionando propriedade flex-direction */
+  margin-left: 185px;
+  margin-top: 40px;
+  background-color: rgba(58, 58, 58, 0.065);
+  box-shadow: 5px 5px 10px rgba(34, 33, 33, 0.384);
+  border-radius: 20px;
+}
+
+.main {
+  display: flex;
+  font-size: 13px;
+}
+
+/* Requisito 7 - Adicionando propriedade ao img. */
+#trybewarts-forms-logo {
+  height: 500px;
+  margin-left: 150px;
+}
+
+h3 {
+  text-align: center;
+}
+
+/* Requisito 10 e 11 - Alterando os botões. */
+#input-name , #input-lastname , #input-email {
+  border-radius: 10px;
+  padding: 15px;
+  width: 320px;
+  height: 40px;
+  border-style: none;
+  margin-left: 10px;
+}
+
+#house {
+  border-radius: 10px;
+  width: 275px;
+  height: 40px;
+  padding-top: 5px;
+  margin-top: 10px;
+  border-style: none;
+  background-color: white;
+}
+
+hr {
+  background-color: black;
+  margin-bottom: 10px;
+  height: 3px;
+  width: 675px;
+}
+
+#label-family {
+  margin-left: 10px;
+}
+
+#label {
+  display: flex;
+  margin: 10px;
+}
+
+/* Requisito 13 - Adicionando propriedades para os checkbox. */
+.input1 {
+  width: 320px;
+  margin-left: 60px;
+  flex-wrap: wrap;
+  margin-right: 3px;
+}
+
+#divPai {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subject {
+  margin: 12px;
+  margin-top: -2px;
+}
+
+/* Requisito 14 - Adicionando propriedades ao campo de avaliação. */
+#label-rate {
+  margin-left: 10px;
+}
+
+.input-radio {
+  margin: 5px;
+}
+
+/* Requisito 15 - Adicionando propriedades ao textarea. */
+.textarea , #textarea1 {
+  margin: 10px;
+  border-style: none;
+}
+
+#label-infos {
+  margin: 10px;
+}
+
+/* Requisito 17 - Criando botão. */
+#submit-btn {
+  padding-top: 11px;
+  background-color: rgb(74, 33, 113);
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 10px;
+}
+
+/* Requisito 19 - criando design footer. */
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(49, 47, 73, 0.884);
+  height: 40px;
+  color: white;
+}
